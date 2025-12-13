@@ -1,5 +1,9 @@
 This workflow is to use vcs to generate thumbnail previews.
 
+'''
+brew install vcs
+'''
+
 ```
 export PATH="/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export TERM=xterm-256color
@@ -20,4 +24,4 @@ done
 magick "$out" -gravity south -chop 0x28 +repage "$out"
 
 afplay /System/Library/Sounds/Glass.aiff
-```
+``'
